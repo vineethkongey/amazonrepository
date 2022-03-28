@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 
 public class SearchBarTest {
 	
+	
 	@Test
 	public void enterValuesTest(){
 		System.out.println("entered values successfully");
@@ -17,4 +18,12 @@ public class SearchBarTest {
 	public void mobileTest() {
 		System.out.println("enteed mobile values");
 	}
+	@Test
+	public void loginCredentials() {
+		String BROWSER = System.getProperty("browser");	
+		System.out.println(BROWSER);
+		String URL = System.getProperty("url");
+		System.out.println(URL);
+		
+		}
 }
