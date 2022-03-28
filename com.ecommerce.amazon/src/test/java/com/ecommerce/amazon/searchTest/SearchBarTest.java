@@ -12,4 +12,9 @@ public class SearchBarTest {
 	public void groceryTest() {
 		System.out.println("entered grocery values");
 	}
+	
+	@Test
+	public void mobileTest() {
+		System.out.println("enteed mobile values");
+	}
 }
